@@ -1,150 +1,87 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap");
 
-*{
-    font-family: 'Work Sans', sans-serif;
+* {
+  font-family: "Work Sans", sans-serif;
 }
-.button-primary{
-    width: 180px;
-    height: 64px;
-    padding: 20px;
-    font-size: 1.2rem;
-    color: #ffffff;
-    background-color: #FF900E;
-    border-radius: 8px;
-    border: none;
-    font-weight: 600;
-    cursor: pointer;
+.button-primary {
+  width: 180px;
+  height: 64px;
+  padding: 20px;
+  font-size: 1.2rem;
+  color: #ffffff;
+  background-color: #ff900e;
+  border-radius: 8px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
 }
 /* header styles */
-header{
-    padding: 50px 240px;
-    background-color: rgba(255, 144, 14, 0.10);;
+header {
+  padding: 50px 240px;
+  background-color: rgba(255, 144, 14, 0.1);
 }
 /* nav li{
     list-style: none;
     display: inline-block;
 } */
 
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-nav ul{
-    display: flex;
+nav ul {
+  display: flex;
 }
-.nav-title{
-    font-size: 2.8rem;
-    font-weight: 700;
-    color: #131313;
-    /* text-transform: uppercase; */
-}
-
-nav ul li{
-    list-style: none;
-    margin: 0 20px;
-    text-align: center;
-    font-size: 1.1rem;
-    font-weight: 500;
+.nav-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #131313;
+  /* text-transform: uppercase; */
 }
 
-nav ul li a{
-    text-decoration: none;
-    color: #424242;
+nav ul li {
+  list-style: none;
+  margin: 0 20px;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #424242;
 }
 /* banner  */
-.banner-container{
-    max-width: 800px !important;
-    margin: 0 auto;
-    text-align: center;
-    /* padding: 0 20px;
+.banner-container {
+  max-width: 800px !important;
+  margin: 0 auto;
+  text-align: center;
+  /* padding: 0 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center; */
 }
 
-.banner-title{
-    font-size: 4rem;
-    font-weight: 700;
-    color: #131313;
+.banner-title {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #131313;
 }
 
-.banner-description{@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');;
-
-*{
-    font-family: 'Work Sans', sans-serif;
+.button-primary {
+  width: 180px;
+  height: 64px;
+  padding: 20px;
+  font-size: 1.2rem;
+  color: #ffffff;
+  background-color: #ff900e;
+  border-radius: 8px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
 }
-.button-primary{
-    width: 180px;
-    height: 64px;
-    padding: 20px;
-    font-size: 1.2rem;
-    color: #ffffff;
-    background-color: #FF900E;
-    border-radius: 8px;
-    border: none;
-    font-weight: 600;
-    cursor: pointer;
-}
-/* header styles */
-header{
-    padding: 50px 240px;
-    background-color: rgba(255, 144, 14, 0.10);;
-}
-/* nav li{
-    list-style: none;
-    display: inline-block;
-} */
-
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-nav ul{
-    display: flex;
-}
-.nav-title{
-    font-size: 2.8rem;
-    font-weight: 700;
-    color: #131313;
-    /* text-transform: uppercase; */
-}
-
-nav ul li{
-    list-style: none;
-    margin: 0 20px;
-    text-align: center;
-    font-size: 1.1rem;
-    font-weight: 500;
-}
-
-nav ul li a{
-    text-decoration: none;
-    color: #424242;
-}
-/* banner  */
-.banner-container{
-    max-width: 800px !important;
-    margin: 0 auto;
-    text-align: center;
-    /* padding: 0 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; */
-}
-
-.banner-title{
-    font-size: 4rem;
-    font-weight: 700;
-    color: #131313;
-}
-
-.banner-description{
-    color: #727272;
-}
-#banner-image{
-    width: 100%;
+.banner img{
+    max-width: 100%;
 }
